@@ -1,4 +1,6 @@
-BASE DE DATOS
+# BACK-END
+
+## BASE DE DATOS (Sin utilizar)
 
  TABLA PREGUNTAS
  - id
@@ -10,35 +12,40 @@ BASE DE DATOS
  - ID
  - description, string(255)
 
- LOGICA
+## LOGICA CON BASE DE DATOS
 
  1. Traigo los datos de la DB a PHP mediante queries
  2. Proceso los datos de tal manera que me quede esto:
-   $pregunta: descripción de pregunta
-   $respuestas: Las IDS y Descripcion de las dos respuestas incorrectas
-   $respuesta_correcta: La ID y descripcion de la respuesta correcta
+    - pregunta: descripción de pregunta
+    - respuestas: Las IDS y Descripcion de las dos respuestas incorrectas
+    - respuesta_correcta: La ID y descripcion de la respuesta correcta
  3. Muestro los datos en PHP
 
- SEGUNDA PARTE DE LOGICA
- 1. 
+## SEGUNDA PARTE DE LOGICA CON BASE DE DATOS
 
-MEJORAS BACK
+    A desarrollar...
+
+## MEJORAS BACK
 
  - La pregunta actual va a tener solamente un correcto, hacer
     que tenga dos respuestas posibles si es necesario
-    ...........
 
 
-Planificacion Sprint (SCRUM)
- - Sprint: 5 dias habiles
- - Hito 1:
-Sprint 1: 
-    - Back: Cracion de Base de Datos
-            Queries MySQL
-    - Front: Creacion de codigo HTML
+## PLANIFICACION DE SPRINT (SCRUM)
+    La duración del sprint es de 5 dias habiles (1 semana)
 
-Sprint 2: 
-    - Back: Logica de la trivia
-    - Front: Creacion de codigo CSS y JS
+### Hito 1
+
+ - Sprint 1: 
+    - Back: Creación de Base de Datos,
+            queries MySQL, lógica inicial
+    - Front: Creación de código HTML
+
+### Hito 2
+
+ - Sprint 2: 
+    - Back: Lógica adicional
+    - Front: Creación de código CSS y JS, siendo estos los estilos
+            y dinamismo de la página. 
 
 
