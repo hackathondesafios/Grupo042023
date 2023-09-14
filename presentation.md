@@ -10,3 +10,5 @@
  - Daniel Olima
 
 Tecnologias a usar: CSS, HTML, Javascript, PHP, MySQL
+
+## Fecha de entrega: 24 de septiembre
